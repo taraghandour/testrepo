@@ -1,0 +1,20 @@
+---
+title: "HW Week 4"
+author: "tara"
+date: "2/9/2022"
+output:
+  html_document:
+    toc: true
+ ---
+
+# Header 1: Plot with data regarding wells and arsenic levels
+
+```{r}
+wells_data = read.csv("https://raw.githubusercontent.com/avehtari/ROS-Examples/master/Arsenic/data/wells.csv", header=TRUE)
+head(wells_data)
+plot(switch~arsenic, data=wells_data, xlab="Arsenic level in well", ylab="Switching Wells Binary")
+
+```
+
+
+
