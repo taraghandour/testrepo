@@ -16,5 +16,14 @@ plot(switch~arsenic, data=wells_data, xlab="Arsenic level in well", ylab="Switch
 
 ```
 
+# Header 2: Bulleted list of the variables in the 'wells_data' file
+- switch variable (0 means they didn't switch wells, 1 means they did)
+- arsenic variable 
+- dist variable (distance in meters)
+- dist100 variable (distance per 100 meters)
+- assoc variable (community association)
+- educ variable (education level per year)
+- educ4 variable (education level per 4 years)
+
 
 
