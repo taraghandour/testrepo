@@ -25,5 +25,7 @@ plot(switch~arsenic, data=wells_data, xlab="Arsenic level in well", ylab="Switch
 - educ variable (education level per year)
 - educ4 variable (education level per 4 years)
 
+## subheader 1: Link of the github page for the wells study
+Here is the [hyperlink](https://avehtari.github.io/ROS-Examples/Arsenic/arsenic_logistic_building.html)
 
 
